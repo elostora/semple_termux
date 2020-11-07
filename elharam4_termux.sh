@@ -14,19 +14,6 @@ apt upgrade -y
 pkg install update -y
 pkg install upgrade -y
 termux-setup-storage 
-apt-get update -y
-apt-get upgrade -y
-apt install php -y
-apt install python -y
-apt install python2 -y
-apt install git -y
-apt install golang -y
-apt install host -y
-apt install nano -y
-apt install havij -y
-apt install hydra -y
-apt install wireshark -y
-apt install cmatrix -y
 pkg install figlet -y
 pkg install wget -y
 pkg install wget -y
@@ -51,4 +38,5 @@ pkg install w3m -y
 pkg install proot -y
 pip2 install wget -y
 pip2 install requests -y
-apt update && apt upgrade -y
+pkg update && apt upgrade -y
+clear
